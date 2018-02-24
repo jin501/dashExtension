@@ -1,0 +1,32 @@
+.ChatBox{
+  padding: 10px;
+  text-align: center;
+  /* max-width: 350px; */
+  width: 350px;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.ChatWindow{
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: lavender;
+  font-size: 15px;
+  word-wrap: break-word;
+  list-style: none;
+  padding: 25px;
+}
+
+.Text{
+  padding:30px;
+}
+
+.Human{
+  text-align: right;
+
+}
+.Bot{
+  text-align: left;
+}

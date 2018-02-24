@@ -1,0 +1,11 @@
+{
+  "short_name": "React App",
+  "name": "personal Dash",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "React Ext"
+  },
+  "chrome_url_overrides": {"newtab": "myDash.html"},
+  "version": "1.0"
+}
